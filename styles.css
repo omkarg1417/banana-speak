@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root {
+    --theme-color: rgb(255, 217, 0);
+    --input-output-font: 'Times New Roman', Times, serif;
+}
+
+*{
+    font-family: 'Lobster Two', cursive;
+}
+
+body {
+    margin:0;
+}
+
+.header-heading {
+    text-align: center;
+    padding:2rem;
+    background-color: var(--theme-color);
+    margin:auto;
+}
+
+.input-section {
+    margin:auto;
+    width:60%;
+    /* border:2px solid black;  */
+}
+
+#txt-input {
+    width:100%;
+    height:15vh;
+    padding:1rem;
+    box-sizing: border-box;
+    font-size:16px;
+    font-family: var(--input-output-font);
+}
+
+#btn-translate {
+    display:block;
+    background-color: var(--theme-color);
+    padding: 1em 3rem;
+    margin:0.5rem auto;
+    border:none;
+    outline:none;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 1rem;
+    cursor:pointer;
+}
+
+#output-div {
+    width:60%;
+    border:2px solid black;
+    height:15vh;
+    margin:2.5rem auto;
+    font-family: var(--input-output-font);
+    color:gray;
+    padding:1rem;   
+    box-sizing: border-box;
+    overflow-y:scroll;
+}
+
+.footer {
+    position: relative;
+    bottom:0;
+    /* margin:auto;  */
+    text-align: center;
+    padding:3rem;
+    background-color: var(--theme-color);
+}
+
+.footer .footer-heading {
+    font-size: 30px;
+    font-weight: bold;
+}
+.footer .footer-description {
+    font-size: 24px;
+    width: 60%;
+    margin:1rem auto;
+}
